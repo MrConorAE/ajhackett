@@ -1,0 +1,369 @@
+body {
+	font-family: "Roboto Condensed";
+	font-weight: normal;
+}
+
+#top {
+	background-color: #d6d6d6;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: right;
+	box-shadow: 5px 0px 15px 10px #d6d6d6;
+}
+
+#main {
+	padding-top: 90px;
+}
+
+#top img {
+	position: fixed;
+	top: 0px;
+	left: 40px;
+	height: 100px;
+	background-color: #d6d6d6ff;
+	box-shadow: 0px 0px 15px 10px #d6d6d6ff;
+}
+
+#top h1 {
+	padding-right: 40px;
+}
+
+#nav-container {
+	height: 20px;
+	background-color: #d6d6d6;
+	position: absolute;
+	right: 10px;
+	overflow: hidden;
+	padding-bottom: 2px;
+	transition: height 0.6s cubic-bezier(.87, -.41, .19, 1.44);
+	box-shadow: 5px 0px 15px 10px #d6d6d6;
+}
+
+#nav-container:hover {
+	height: 180px;
+	transition: height 0.6s cubic-bezier(.87, -.41, .19, 1.44);
+	width: auto;
+}
+
+#nav .here {
+	background-color: black;
+	color: #d6d6d6;
+}
+
+#nav button {
+	border: 0px solid black;
+	border-radius: 5px;
+	font-family: 'Roboto Condensed';
+	background-color: transparent;
+	margin-left: 2px;
+	margin-right: 2px;
+	transition: width 0.6s cubic-bezier(.87, -.41, .19, 1.44);
+	width: 30px;
+	text-align: left;
+	overflow: hidden;
+	height: 18px;
+}
+
+#nav button:hover {
+	background-color: black;
+	color: #d6d6d6;
+	font-weight: bold;
+	transition: width 0.6s cubic-bezier(.87, -.41, .19, 1.44);
+	width: 120px;
+}
+
+.title {
+	background-image: url(background.jpg);
+	height: 200px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#top h1 {
+	margin-bottom: 0px;
+}
+
+.subtitle {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-right: 40px;
+	font-size: 12px;
+}
+
+.title h1 {
+	padding-top: 70px;
+	padding-bottom: 80px;
+	text-align: center;
+	color: #d6d6d6;
+	text-shadow: 0px 0px 5px #d6d6d6;
+}
+
+hr {
+	margin-top: 12px;
+	border: 0.2px solid black;
+}
+
+.par {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+button {
+	border: 1px solid black;
+	border-radius: 5px;
+	font-family: 'Roboto Condensed';
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	background-color: transparent;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+.title .subtitle {
+	font-size: 15px;
+}
+
+.topBorder {
+	border-top: 0.5px solid black;
+	padding-top: 10px;
+}
+
+#bottom {
+	background-color: #d6d6d6;
+	width: 100%;
+	text-align: left;
+	box-shadow: -5px 0px 15px 3px #d6d6d6;
+	bottom: 0%;
+	left: 0%;
+	position: fixed;
+	font-size: 12px;
+}
+
+#bottom p {
+	margin-top: 0px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+}
+
+#bottom img {
+	float: left;
+	padding-right: 10px;
+}
+
+#main img {
+	float: left;
+}
+
+ul li {
+	font-size: 16px;
+}
+
+ul li .details {
+	font-size: 14px;
+}
+
+button:disabled {
+	border-color: #b2b2b2;
+	color: #b2b2b2;
+}
+
+button:disabled:hover {
+	border-color: #b2b2b2;
+	color: #b2b2b2;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+a {
+	color: black;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	border-radius: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+}
+
+#bungy {
+	width: 50px;
+	height: 100px;
+}
+
+#hackett {
+	border-radius: 50px;
+	width: 100px;
+	margin-top: 10px;
+	transition: margin-top 0.6s cubic-bezier(.87, -.41, .19, 1.44);
+	box-shadow: 0px 0px 20px 3px #a8a8a8;
+}
+
+#hackett:hover {
+	transition: margin-top 0.6s cubic-bezier(.87, -.41, .19, 1 .44);
+	margin-top: 0px;
+}
+
+#hackettDesc {
+	padding-left: 10px;
+	margin-bottom: 0px;
+}
+
+.conBtn {
+	text-align: left;
+	margin-top: 10px;
+}
+
+.conBtn i {
+	padding-left: 0px;
+	text-align: right;
+	transition: padding-left 0.6s cubic-bezier(.87, -.41, .19, 1.44);
+}
+
+.conBtn:hover i {
+	padding-left: 10px;
+	transition: padding-left 0.6s cubic-bezier(.87, -.41, .19, 1.44);
+}
+
+.heightMarker {
+	font-weight: bold;
+	text-align: right;
+}
+
+.heightLine {
+	background-color: black;
+	color: white;
+	padding: 2px;
+	text-align: center;
+	border-bottom: 5px solid black;
+}
+
+#heightCount {
+	padding-left: 35%
+}
+
+#heightTitle {
+	text-align: center;
+}
+
+#hackettPic {
+	border-radius: 50px;
+	width: 100px;
+	margin-left: 40%;
+	margin-top: 10px;
+	transition: margin-top 0.6s cubic-bezier(.87, -.41, .19, 1.44);
+	box-shadow: 0px 0px 20px 3px #a8a8a8;
+}
+
+#hackettPic:hover {
+	transition: margin-top 0.6s cubic-bezier(.87, -.41, .19, 1 .44);
+	margin-top: 0px;
+}
+
+#center {
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#jumps tr td {
+	border-left: 0.1px solid black;
+	border-bottom: 0.1px solid black;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.slider {
+	width: 100%;
+	height: 150px;
+	border: 1px solid black;
+	border-radius: 10px;
+	border-top-left-radius: 0px;
+	display: flex;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	-webkit-scroll-snap-points-x: repeat(300px);
+	-ms-scroll-snap-points-x: repeat(300px);
+	scroll-snap-points-x: repeat(300px);
+	-webkit-scroll-snap-type: mandatory;
+	-ms-scroll-snap-type: mandatory;
+	scroll-snap-type: mandatory;
+	overflow-y: hidden;
+	scroll-behavior: smooth;
+}
+
+.slide {
+	border-right: 1px solid black;
+	padding-left: 10px;
+	width: 300px;
+	flex-shrink: 0;
+	height: 150px;
+	text-align: center;
+}
+
+.slide h3 {
+	margin-top: 1px;
+}
+
+.end-slide {
+	width: 20px;
+	padding-left: 0px;
+	padding-top: 55px;
+}
+
+.slidesBar {
+	margin: -3.2px;
+	border-radius: 0px;
+	border-right: none;
+	border-left: none;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.slidesBar:hover {
+	font-weight: bold;
+	width: 50px;
+	font-size: 15px;
+	padding-top: 2px;
+}
+
+#leftSide {
+	border-top-left-radius: 5px;
+	margin-left: 0.3px;
+	border-left: 1px solid black;
+}
+
+#rightSide {
+	border-top-right-radius: 5px;
+	margin-right: 0.3px;
+	border-right: 1px solid black;
+}
+
+#quotes {
+	border-left: 1px solid black;
+	padding-left: 10px;
+	width: 50%;
+}
+
+#quoteEnd {
+	text-align: right;
+	padding-left: 95%;
+}
+
+#FoP {
+	width: 300px;
+}
